@@ -14,7 +14,7 @@ UNITS = 512
 
 
 # LOADING DATA
-vocab = pickle.load(open('vocab_coco.file', 'rb'))
+vocab = pickle.load(open('vocab.file', 'rb'))
 
 tokenizer = tf.keras.layers.TextVectorization(
     max_tokens=VOCABULARY_SIZE,
